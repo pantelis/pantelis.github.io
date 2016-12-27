@@ -8,6 +8,6 @@ deploy:
     - install-packages:
         packages: git ssh-client
     - lukevivier/gh-pages@0.2.1:
-        token: $GIT_ACCESS_TOKEN_PANTELIS_GITHUB_IO_SITE
+        token: $GITHUB_ACCESS_TOKEN_PANTELIS_GITHUB_IO_SITE
         domain: pantelis.github.io
         basedir: public
