@@ -1,0 +1,24 @@
++++
+# Recent Publications widget.
+# Note: this widget will only display if `content/publication/` contains publications.
+
+date = "2016-04-20T00:00:00"
+draft = false
+
+title = "Recent Publications"
+subtitle = ""
+widget = "publications"
+
+# Order that this section will appear in.
+weight = 20
+
+# Number of publications to list.
+count = 10
+
+# Show publication details (such as abstract)? (true/false)
+detailed_list = false
+
++++
+
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=zsx29hIAAAAJ&view_op=list_works&gmla=AJsN-F53gQVYmVir81r8mkcMVvtZvGWZOyGCkDW9ilbRFK4hRiP5n6skQc1EhhzG2yGWDtL1n59TEp8gA8Gz3RCIKNH3YtQXhG6f5pa7CGfGxtQ3D0UhulA)
+
