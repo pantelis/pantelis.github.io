@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Pantelis Monogioudis</title>
+    <link>https://pantelis.github.io/authors/</link>
+      <atom:link href="https://pantelis.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 18 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Authors</title>
+      <link>https://pantelis.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://pantelis.github.io/authors/pantelis/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://pantelis.github.io/authors/pantelis/</guid>
+      <description>&lt;p&gt;I am a recognized industry leader with more than 20 years experience in leading Research &amp;amp; Development projects. I started in wireless communications in the 90s and in 2000&amp;rsquo;s started diversifying into Machine Learning initially for wireless networks and later for other mission critical applications such as surveilance and robotics. Currently I am the head of Applied Machine Learning Research at Bell Laboratories, leading ~15 researchers in Murray Hill NJ and Budapest. As of Spring 2019 I am also an adjunct with the Computer Science department of NJIT and as of Spring 2020 with NYU, Tandon School of Engineering. 15 journal publications and 50 patents issued/pending.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Anil Rao</title>
+      <link>https://pantelis.github.io/authors/anil-rao/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://pantelis.github.io/authors/anil-rao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dandan Wang</title>
+      <link>https://pantelis.github.io/authors/dandan-wang/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://pantelis.github.io/authors/dandan-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gurudutt Hosangadi</title>
+      <link>https://pantelis.github.io/authors/gurudutt-hosangadi/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://pantelis.github.io/authors/gurudutt-hosangadi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
