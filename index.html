@@ -399,7 +399,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#posts" data-target="#posts"><span>Posts</span></a>
+          <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
         </li>
 
         
@@ -448,38 +448,9 @@
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+          <a class="nav-link " href="/courses/"><span>Teaching</span></a>
         </li>
 
         
@@ -699,7 +670,9 @@
     
     <h1>Biography</h1>
 
-    <p>I am a recognized industry leader with more than 20 years experience in leading Research &amp; Development projects. I started in wireless communications in the 90s and in 2000&rsquo;s started diversifying into Machine Learning initially for wireless networks and later for other mission critical applications such as surveilance and robotics. Currently I am the head of Applied Machine Learning Research at Bell Laboratories, leading ~15 researchers in Murray Hill NJ and Budapest. As of Spring 2019 I am also an adjunct with the Computer Science department of NJIT and as of Spring 2020 with NYU, Tandon School of Engineering. 15 journal publications and 50 patents issued/pending.</p>
+    <p>I am a recognized industry leader with more than 20 years experience in leading Research &amp; Development projects. I started working in wireless communications in the late 90s and went  through many generations of PHY and MAC layer design for 3G, HSPA, LTE and 5G mmwave networks.</p>
+<p>In the 2010&rsquo;s started diversifying into Machine Learning (ML) and its role in optimizing wireless networks where we published groundbreaking papers from field trials, on several use cases associated with automated air-interface parameter optimization and beam-space end-user optimization.</p>
+<p>Currently, I am the head of Applied Machine Learning Research at Bell Laboratories, leading ~15 researchers in Murray Hill NJ and Budapest. As of Spring 2019 I am also an adjunct with the Computer Science department of NJIT and as of Spring 2020 with NYU, Tandon School of Engineering. I have 15 journal publications with hundreds of citations and 50 patents issued/pending.</p>
 
 
     <div class="row">
@@ -709,9 +682,9 @@
         <h3>Interests</h3>
         <ul class="ul-interests">
           
-          <li>Artificial Intelligence</li>
+          <li>5G</li>
           
-          <li>Machine Learning</li>
+          <li>Robotics and ML</li>
           
           <li>Simulation</li>
           
@@ -729,7 +702,7 @@
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">Self-Driving car Engineer, 2018</p>
+              <p class="course">Self-Driving Car Engineer, 2018</p>
               <p class="institution">Udacity, California, USA</p>
             </div>
           </li>
@@ -761,7 +734,7 @@
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">BEng in Electronics, 1990</p>
+              <p class="course">BEng in Electronic Engineering, 1990</p>
               <p class="institution">Technological Educational Institute of Athens</p>
             </div>
           </li>
@@ -1030,121 +1003,6 @@
     
 
     
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="projects" class="home-section wg-portfolio   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-
-    <h1>Projects</h1>
-    
-
-  </div>
-  <div class="col-12 col-lg-8">
-
-
-
-    <p>All non proprietary projects are accessible via my 
-<a href="https://github.com/pantelis" target="_blank" rel="noopener">Github</a>.</p>
-<p>Computer Vision and Deep Learning</p>
-<ol>
-<li>
-<p>Multi-camera Real Time Object Detection. We developed an end to end video pipeline based on Tensorflow and streaming frameworks that can detect using Resnet-50 extracted feature maps various objects in real time. The pipeline was tested a large indoor space covered by tens of cameras.</p>
-</li>
-<li>
-<p>Finding Lane Lines for autonomous vehicles. Various transformations were applied to calibrated video sequence to a histogram-based lane detection algorithm to detect and overlay a spline on traffic lane lines. The algorithm had real time requirements.</p>
-</li>
-<li>
-<p>Traffic Sign Classifier for autonomous vehicles. A dataset of traffic signs was used to train a 5 layer deep CNN - the model was subsequently used to classify test traffic signs.</p>
-</li>
-<li>
-<p>Behavioral Cloning for autonomous vehicles. The human behavior while driving a vehicle inside a simulated closed circuit, was cloned by a DNN successfully allowing the DNN to drive the vehicle in the same circuit.</p>
-</li>
-<li>
-<p>Vehicle Detection and Tracking for autonomous vehicles. Vehicles present in a highway scene were searched, detected and bounding boxes plotted around them. SVM-based algorithms were used due to real-time constraints of the problem.</p>
-</li>
-<li>
-<p>Semantic Segmentation. Transfer learning was implemented on Fully Convolutional Network. Starting from VGG16 the FCN16s architecture was implemented aiming to paint each pixel of a sequence of training images according to the desired class.</p>
-</li>
-</ol>
-<p>Tracking and Optimal Control</p>
-<ol>
-<li>
-<p>Extended and Unscented Kalman Filters for Robots. In this project, EKF and UKF filters were used to estimate the state of a moving object of interest with noisy LIDAR and radar measurements.</p>
-</li>
-<li>
-<p>Localization in Networks. In this project mobile devices were localized using traces of noisy and missing network data. Noting that devices were successfully localized without any explicit trigger to the specific device, the estimated locations help on troubleshooting operational networks, drive anomaly detection algorithms but also help law enforcement agencies to respond to terrorist attacks and other crimes.</p>
-</li>
-<li>
-<p>Model Predictive Control for autonomous vehicles. In this project we optimized MPC parameters, based on a kinematic model of the car. The optimally manipulated variables such as steering and throttle minimize the cost a quadratic function of cross track error (CTE) as well as velocity deviations from a nominal velocity value over a horizon of several seconds.</p>
-</li>
-</ol>
-<p>Resource Assignment Policy Design</p>
-<ol>
-<li>
-<p>Behavioral Cloning for Optimal Resource Assignment (ongoing). In this project DNNs are used to approximate resource assignment algorithms. Accuracies of 98% have been achieved for simple policies and the work is on going for approximating complex policies.</p>
-</li>
-<li>
-<p>Optimal Parameter Optimization in Networks. In this project series, network training datasets were used to learn interference patterns and the resultant statistics drive iterative structured optimization algorithms that maximize social utility for all network participants.</p>
-</li>
-<li>
-<p>Economic Networks. In this project resource protection limits were derived for each revenue class of users to adjust optimal priority levels that admit and/or define a classes of service.</p>
-</li>
-</ol>
-
-
-    
-
-    <div class="isotope projects-container js-layout-masonry ">
-      
-    </div>
 
   </div>
 </div>
@@ -1451,6 +1309,121 @@
     
 
     
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="projects" class="home-section wg-portfolio   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+
+    <h1>Projects</h1>
+    
+
+  </div>
+  <div class="col-12 col-lg-8">
+
+
+
+    <p>All non-proprietary project code is in my 
+<a href="https://github.com/pantelis" target="_blank" rel="noopener">Github</a>. Wireless projects that include extensive NS-3 simulations are not there as they contain proprietary components and algorithms.</p>
+<h3 id="computer-vision-and-deep-learning">Computer Vision and Deep Learning</h3>
+<ol>
+<li>
+<p>Multi-camera Real Time Object Detection. We developed an end to end video pipeline based on Tensorflow and streaming frameworks that can detect using Resnet-50 extracted feature maps various objects in real time. The pipeline was tested a large indoor space covered by tens of cameras.</p>
+</li>
+<li>
+<p>Finding Lane Lines for autonomous vehicles. Various transformations were applied to calibrated video sequence to a histogram-based lane detection algorithm to detect and overlay a spline on traffic lane lines. The algorithm had real time requirements.</p>
+</li>
+<li>
+<p>Traffic Sign Classifier for autonomous vehicles. A dataset of traffic signs was used to train a 5 layer deep CNN - the model was subsequently used to classify test traffic signs.</p>
+</li>
+<li>
+<p>Behavioral Cloning for autonomous vehicles. The human behavior while driving a vehicle inside a simulated closed circuit, was cloned by a DNN successfully allowing the DNN to drive the vehicle in the same circuit.</p>
+</li>
+<li>
+<p>Vehicle Detection and Tracking for autonomous vehicles. Vehicles present in a highway scene were searched, detected and bounding boxes plotted around them. SVM-based algorithms were used due to real-time constraints of the problem.</p>
+</li>
+<li>
+<p>Semantic Segmentation. Transfer learning was implemented on Fully Convolutional Network. Starting from VGG16 the FCN16s architecture was implemented aiming to paint each pixel of a sequence of training images according to the desired class.</p>
+</li>
+</ol>
+<h3 id="tracking-and-optimal-control">Tracking and Optimal Control</h3>
+<ol>
+<li>
+<p>Extended and Unscented Kalman Filters for Robots. In this project, EKF and UKF filters were used to estimate the state of a moving object of interest with noisy LIDAR and radar measurements.</p>
+</li>
+<li>
+<p>Localization in Networks. In this project mobile devices were localized using traces of noisy and missing network data. Noting that devices were successfully localized without any explicit trigger to the specific device, the estimated locations help on troubleshooting operational networks, drive anomaly detection algorithms but also help law enforcement agencies to respond to terrorist attacks and other crimes.</p>
+</li>
+<li>
+<p>Model Predictive Control for autonomous vehicles. In this project we optimized MPC parameters, based on a kinematic model of the car. The optimally manipulated variables such as steering and throttle minimize the cost a quadratic function of cross track error (CTE) as well as velocity deviations from a nominal velocity value over a horizon of several seconds.</p>
+</li>
+</ol>
+<h3 id="resource-assignment-policy-design">Resource Assignment Policy Design</h3>
+<ol>
+<li>
+<p>Behavioral Cloning for Optimal Resource Assignment. In this project DNNs are used to approximate resource assignment algorithms. Accuracies of 98% have been achieved for simple policies and the work is on going for approximating complex policies.</p>
+</li>
+<li>
+<p>Optimal Parameter Optimization in Networks. In this project series, network training datasets were used to learn interference patterns and the resultant statistics drive iterative structured optimization algorithms that maximize social utility for all network participants.</p>
+</li>
+<li>
+<p>Economic Networks. In this project resource protection limits were derived for each class of users to adjust optimal priority levels that admit and/or define a classes of service.</p>
+</li>
+</ol>
+
+
+    
+
+    <div class="isotope projects-container js-layout-masonry ">
+      
+    </div>
 
   </div>
 </div>
