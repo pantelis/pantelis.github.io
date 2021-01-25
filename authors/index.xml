@@ -1,16 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | Pantelis Monogioudis</title>
+    <title>Authors on Pantelis Monogioudis</title>
     <link>https://pantelis.github.io/authors/</link>
-      <atom:link href="https://pantelis.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
-    <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 18 Feb 2019 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://pantelis.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Authors</title>
-      <link>https://pantelis.github.io/authors/</link>
-    </image>
+    <description>Recent content in Authors on Pantelis Monogioudis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://pantelis.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://pantelis.github.io/authors/pantelis/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pantelis.github.io/authors/pantelis/</guid>
+      <description>I am a recognized industry leader with more than 20 years experience in Research &amp;amp; Development. I started working in wireless communications and went through many generations of PHY and MAC layer design for 3G, HSPA, LTE and recently 5G mmwave networks.
+I started diversifying into Machine Learning (ML) in the last 10 years initially for optimizing networks where we published groundbreaking papers from field trials, on several use cases associated with automated LTE air-interface parameter optimization and 5G beam-space end-user localization.</description>
+    </item>
+    
+    <item>
+      <title>Anil Rao</title>
+      <link>https://pantelis.github.io/authors/anil-rao/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pantelis.github.io/authors/anil-rao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dandan Wang</title>
+      <link>https://pantelis.github.io/authors/dandan-wang/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pantelis.github.io/authors/dandan-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gurudutt Hosangadi</title>
+      <link>https://pantelis.github.io/authors/gurudutt-hosangadi/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pantelis.github.io/authors/gurudutt-hosangadi/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
